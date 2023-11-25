@@ -23,7 +23,7 @@ public class Variables {
 	
 	public static void nj(String county){
 		String city = "Bloomfield";     //Local variable - variable - variables declared in methods
-		String police = "BPD";          //Method parameter - variables used as method parameter/ Variable outside to inside
+		String police = "BPD";          //Method parameter - variables used as method parameter/ Variable outside to inside; 
 		System.out.println(city);
 		System.out.println(region);
 		System.out.println(county);
