@@ -5,8 +5,8 @@ import com.upskill.java_1.MethodType;
 public class Polymorphism extends MethodType{
 	
 	/* Polymorphism is the ability of an object to take on many forms.
-	- Method Overloading (Compile time Polymorphism/Static binding) Same method name with different signature to overload
-	- Method Overridding (Runtime Polymorphism/Dynamic binding) Same method name from Parent class to override
+	- Method Overloading (Compile time Polymorphism/Static binding) Same method name with different signature/peramiter to overload
+	- Method Overriding (Runtime Polymorphism/Dynamic binding) Same method name from Parent class to override
 */
    public static void main(String[] args) {                 
 		car(5, 100);

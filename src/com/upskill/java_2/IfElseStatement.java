@@ -8,7 +8,7 @@ public class IfElseStatement {
 		
 		if (age < 13){
 		}if (age <= 0){
-			System.out.println("You are children");
+			System.out.println("You are child");
 		} else if (age >= 13 && age < 18){
 			System.out.println("You are Teenager");
 		} else if (age >= 60){

@@ -12,7 +12,7 @@ public class Loops {
 		//practiceWhileLoop();
 		//practiceDoWhileLoop();
 		// practiceInfiniteLoop();
-		practiceNestedForLoop();
+		//practiceNestedForLoop();
 
 	}
 
@@ -22,42 +22,42 @@ public class Loops {
 			System.out.println("For Loops number =" + i);     //Statement
 		}
 	}
-
-	public static void practiceWhileLoop() {                   //While Loop- Do again and again upto codition match
-		int i = 1;                                             //Initiate the variable
-		while (i <= 10) { // Setting Condition                 //Setting Condition  
-			System.out.println("While Loops number = " + i);    // Statement
-			i++;                                                // Increment or decrement
-		}
-	}
-
-	public static void practiceDoWhileLoop() {                    // Do While Loop- Do action then check condition
-		int i = 1;										          // Initialize the variable          
-		 do {
-			System.out.println("Do While Loops number =" + i);    // statement
-			i++;                                                 // Increment or Decrement
-		} while (i <= 10);                                       // Checking condition
-	}
-
-	public static void practiceInfiniteLoop() {                      // Infinite Loop - never ending loop
-		int i;                                                       // Initialize the variable
-		for (i = 1;; i++) {                                          // Setting No Upper limit
-			System.out.println("Infinite Loops number = " + i);     // Statement
-
-		}
-	}
-
-	public static void practiceNestedForLoop() {
-		int i;
-		int j;
-
-		for (i = 1; i <= 10; i++) { // First loop for i
-			for (j = 1; j <= 10; j++) {  //2nd For Loop
-				int multipicationTable = i * j;
-				System.out.print(multipicationTable + "  ");
-
-			}
-			System.out.println("   ");
-		}
-	}
+//
+//	public static void practiceWhileLoop() {                   //While Loop- Do again and again upto codition match
+//		int i = 1;                                             //Initiate the variable
+//		while (i <= 10) {                                       //Setting Condition  
+//			System.out.println("While Loops number = " + i);    // Statement
+//			i++;                                                // Increment or decrement
+//		}
+//	}
+//
+//	public static void practiceDoWhileLoop() {                    // Do While Loop- Do action then check condition
+//		int i = 1;										          // Initialize the variable          
+//		 do {
+//			System.out.println("Do While Loops number =" + i);    // statement
+//			i++;                                                 // Increment or Decrement
+//		} while (i <= 10);                                       // Checking condition
+//	}
+//
+//	public static void practiceInfiniteLoop() {                      // Infinite Loop - never ending loop
+//		int i;                                                       // Initialize the variable
+//		for (i = 1;; i++) {                                          // Setting No Upper limit
+//			System.out.println("Infinite Loops number = " + i);     // Statement
+//
+//		}
+//	}
+//
+//	public static void practiceNestedForLoop() {
+//		int i;
+//		int j;
+//
+//		for (i = 1; i <= 10; i++) { // First loop for i
+//			for (j = 1; j <= 10; j++) {  //2nd For Loop
+//				int multipicationTable = i * j;
+//				System.out.print(multipicationTable + "  ");
+//
+//			}
+//			System.out.println("   ");
+//		}
+//	}
 }
